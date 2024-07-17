@@ -23,7 +23,7 @@ body, html {
     align-items: center;
     background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
     font-family: Pacifico;
-    background: url('/Greeting/BackGroundPic/GreetBg.jpg') no-repeat center center fixed;
+    background: url('./BackGroundPic/GreetBg.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
