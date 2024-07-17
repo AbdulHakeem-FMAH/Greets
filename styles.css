@@ -1,20 +1,17 @@
-@font-face {
-    src: url(Font/Pacifico-Regular.ttf);
+@font-face{
+    src:url(Font/Pacifico-Regular.ttf);
     font-family: Pacifico;
 }
-
-@font-face {
-    src: url(Font/Courgette-Regular.ttf);
+@font-face{
+    src:url(Font/Courgette-Regular.ttf);
     font-family: Courgette;
 }
-
-@font-face {
-    src: url(Font/BungeeInline-Regular.ttf);
+@font-face{
+    src:url(Font/BungeeInline-Regular.ttf);
     font-family: Bungee;
 }
-
-@font-face {
-    src: url(Font/KodeMono-VariableFont_wght.ttf);
+@font-face{
+    src:url(Font/KodeMono-VariableFont_wght.ttf);
     font-family: KodeMono;
 }
 
@@ -32,17 +29,16 @@ body, html {
 
 .login-container {
     text-align: center;
-    background: rgba(204, 128, 173, 0.6); /* Adjust transparency here */
+    background: rgba(204, 128, 173, 0.4);
     padding: 40px;
-    border-radius: 20px; /* Increased border radius for a softer look */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Soft shadow for a glassy effect */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
 
 h2 {
     margin-bottom: 20px;
     color: #333;
-    font-family: Pacifico; /* Using Courgette font for headings */
 }
 
 .input-container {
@@ -52,7 +48,7 @@ h2 {
     font-weight: bold;
 }
 
-.input-container ::placeholder {
+.input-container ::placeholder{
     font-family: KodeMono;
 }
 
@@ -68,7 +64,6 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
-    font-family: KodeMono;
 }
 
 button {
