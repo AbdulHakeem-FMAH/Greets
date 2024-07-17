@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Card Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Welcome Back!</h2>
+        <form>
+            <div class="input-container">
+                <label for="username">Name</label>
+                <input type="text" id="username" placeholder="Ruby thaana un peru?">
+            </div>
+            <div class="input-container">
+                <label for="password">Ready for an other ride?</label>
+                <input type="text" id="password" placeholder="Type YES and go for it!">
+            </div>
+            <button type="button" id="wishButton">Enter 22!!</button>
+        </form>
+    </div>
+    <script>
+        document.getElementById('wishButton').onclick = function() {
+            window.location.href = 'https://abdulhakeem-fmah.github.io/Happy22/'; // Replace with your wishing website URL
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@font-face{
+    src:url(Font/Pacifico-Regular.ttf);
+    font-family: Pacifico;
+}
+@font-face{
+    src:url(Font/Courgette-Regular.ttf);
+    font-family: Courgette;
+}
+@font-face{
+    src:url(Font/BungeeInline-Regular.ttf);
+    font-family: Bungee;
+}
+@font-face{
+    src:url(Font/KodeMono-VariableFont_wght.ttf);
+    font-family: KodeMono;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    font-family: Pacifico;
+    background: url('/Greeting/BackGroundPic/GreetBg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-container {
+    text-align: center;
+    background: rgba(204, 128, 173, 0.4);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: KodeMono;
+    font-weight: bold;
+}
+
+.input-container ::placeholder{
+    font-family: KodeMono;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 15px 30px;
+    font-family: KodeMono;
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+    background: #ff6f91;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 20px #ff6f91;
+    transition: box-shadow 0.3s ease-in-out;
+    width: 100%;
+}
+
+button:hover {
+    box-shadow: 0 0 30px #ff6f91, 0 0 40px #ff6f91, 0 0 50px #ff6f91;
+}
